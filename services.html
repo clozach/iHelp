@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>iHelp</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="./styles/global.css" type="text/css" media="screen" charset="utf-8" />
+		
+		<!-- Start Accordion -->
+		<script type="text/javascript" src="./js/accordion/prototype.js"></script>
+		<script type="text/javascript" src="./js/accordion/effects.js"></script>
+		<script type="text/javascript" src="./js/accordion/accordion.js"></script>
+		<script type="text/javascript">
+				
+			Event.observe(window, 'load', loadAccordions, false);
+		
+			function loadAccordions() {
+				var bottomAccordion = new accordion('vertical_container');
+
+			// Open first one
+			bottomAccordion.activate($$('#vertical_container .accordion_toggle')[0]);
+			}
+			</script>
+		<!-- End Accordion -->
+	</head>
+
+	<body class="">
+	
+	<div id="nav">
+		<ul>
+			<li id="nav-brand">
+				<a href="index.html">iHelp</a>
+			</li>
+			<li id="nav-services" class="active">
+				<a href="#">services</a>
+			</li>
+			<li id="nav-rates">
+				<a href="rates.html">rates</a>
+			</li>
+			<li id="nav-contact">
+				<a href="contact.html">contact</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="page">
+		<div class="welcome" id="services">
+			<h1>all-purpose Apple support.</h1>
+			<h3>Tutorials, Advice, and Solutions.</h3>
+		</div>
+
+		<div id="vertical_container" >
+			<h1 class="accordion_toggle">Small Business Support</h1>
+			<div class="accordion_content">Time is money, and I can save you both. By helping you to streamline your business processes and keep your technology humming, you'll have more time to focus on the bottom line.</div>
+		   	<h1 class="accordion_toggle">Mac Tutorials</h1>
+			<div class="accordion_content">Whether you're completely new to computers or just new to the Mac, I can help you make the most of your Mac and other electronics. You'll get calm, clear, friendly instruction at a reasonable price.</div>
+			<h1 class="accordion_toggle">Home Setup</h1>
+			<div class="accordion_content">Need help setting up wireless printing? Want your music and photos to play in your living room? Together we'll assess your technology and your needs in order to maximize both.</div>
+			<h1 class="accordion_toggle">Emergencies</h1>
+			<div class="accordion_content">On those days when every piece of technology in the house seems bent on driving you insane, give me a call. I'll do what I do best&mdash;zapping gremlins&mdash;while you do whatever you do best or just sit back and relax.</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" >  
+	//
+	// You can hide the accordions on page load like this, it maintains accessibility
+	//
+	// Special thanks go out to Will Shaver @ http://primedigit.com/
+	//
+		var verticalAccordions = $$('.accordion_toggle');
+		verticalAccordions.each(function(accordion) {
+			$(accordion.next(0)).setStyle({
+			  height: '0px'
+			});
+		});
+	</script>
+
+	</body>
+</html>

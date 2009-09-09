@@ -1,0 +1,367 @@
+/*ul {
+	background:  #ddd;
+}
+
+ul.nav a,li {
+	text-decoration: none;
+	list-style-type: none;
+	text-shadow: #575757 2px 2px 3px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 22pt;
+	color: #006699;
+	padding-top: 15px;
+}
+div.availability {
+	position: relative;
+	top: 130px;
+}
+/* restart */
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin: 0px;
+	background-color: #FFF;
+}
+
+/* @group top nav */
+#nav {
+	background: url(./images/BarBackground.png) repeat-x 50% 100%;
+	font-size: 24px;
+	padding: 0 0px 1px;
+}
+
+#nav * {
+	padding: 0;
+	margin: 0;
+}
+
+#nav li {
+	display: block;
+	float: left;
+}
+
+#nav li.active, #nav a:hover {
+	background: url(./images/ActiveTab.png) repeat-x 50% 100%;
+	background: url(./images/ActiveTabSideShadows.png) repeat-y 0% 100%, url(./images/ActiveTabSideShadows.png) repeat-y 100% 100%, url(./images/ActiveTab.png) repeat-x 50% 100%;
+	background-color: #c9c9c9;
+}
+
+#nav li a {
+	display: block;
+	padding: 17px 7px 20px;
+	color: #aaa;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	width: 5em;
+}
+
+li#nav-testimonials a {
+	width: 6.5em;
+}
+
+#nav li a:hover {
+	font-weight: bold;
+	background-image: url(./images/IconsActive.png);
+	color: #f8f8f8;
+	text-shadow: #444 0 1px 0;
+
+}
+
+
+
+#nav li.active a, #nav li.active a:hover {
+	font-weight: bold;
+	background-image: url(./images/IconsActive.png);
+	color: #f8f8f8;
+	text-shadow: #444 0 1px 0;
+	background: url(./images/ActiveTab.png) repeat-x 50% 100%;
+	background: url(./images/ActiveTabSideShadows.png) repeat-y 0% 100%, url(./images/ActiveTabSideShadows.png) repeat-y 100% 100%, url(./images/ActiveTab.png) repeat-x 50% 100%;
+	background-color: #c9c9c9;}
+
+#nav li#nav-brand a, #nav li#nav-brand a.active {
+	width: 6em;
+	text-shadow: none;
+	color: #0d97b7;
+	font-weight: normal;
+}
+/* @end */
+
+/* @group Auto-clearing */
+#nav:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#nav, #nav ul { display: inline-block }
+
+/* Hides from IE-mac \*/
+* html #nav, * html #nav ul { height: 1% }
+#nav, #nav ul { display: block }
+/* End hide from IE-mac */
+/* @end */
+
+/* @group welcome */
+#page {
+	background-color: #fff;
+}
+
+.welcome {
+	padding: 80px 0 20px 100px;
+	margin: 0;
+	background: url(../images/apple.png) no-repeat -140px 0;
+}
+.welcome > h1 {
+	font-size: 46pt;
+	color: #444;
+	margin: 0;
+	text-transform: capitalize;
+}
+.welcome > h2 {
+	font-size: 16pt;
+	color: #888;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.welcome > h3 {
+	font-size: 16pt;
+	color: #0c4;
+	font-weight: bold;
+	margin-top: 3px;
+}
+
+/* #contact.welcome {
+	background: url(../images/phone.png) no-repeat 80px 20px;
+}
+#rates.welcome {
+	background: url(../images/penny.png) no-repeat 60px 20px;
+}
+#services.welcome {
+	background: url(../images/mbp.png) no-repeat -150px 20px;
+}
+*/
+/* @end */
+
+/* @group tweets*/
+.news {
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+	background-color: #aed8d8;
+}
+#last-tweet {
+	background-color: #fff;
+	position: relative;
+	padding-left: 20px;
+}
+#tweety-bird {
+	position: absolute;
+	bottom: -24px;
+	right: 10px;
+}
+#label {
+	text-transform: capitalize;
+	float: left;
+	padding-right: 20px;
+	font-weight: bold;
+	color: #444;
+}
+#twitter-timestamp {
+	font-style: italic;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+#twitter-post {
+	text-decoration: none;
+	color: #444;
+	display: block;
+	margin-left: 40px;
+	margin-right: 125px;
+	clear: left;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+/* @end */
+
+/* @group rates */
+div.rates {
+	background-color: #aed8d8;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	color: #259bb5;
+}
+h2#rates {
+	font-size: 30pt;
+	margin: 0;
+}
+ul.rates li {
+	list-style-image: none;
+	height: 30px;
+	color: #444;
+}
+
+ol.nearby li {
+	height: 30px;
+	color: #fff;
+}
+/* @end */
+
+/* @group contact */
+
+input.input {
+	width: 90%;
+	font-size: 16pt;
+	color: #444;
+	border-width: 2px;
+	border-style: inset;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+}
+
+textarea.textarea {
+	width: 90%;
+	font-size: 16pt;
+	color: #444;
+	padding: 10px;
+	border-width: 2px;
+	border-style: inset;
+}
+
+input.submit {
+	width: 8em;
+	font-size: 12pt;
+	color: #259bb5;
+}
+div.contact {
+	padding-left: 40px;
+	padding-bottom: 200px;
+	padding-top: 30px;
+	font-size: 24pt;
+	font-weight: bold;
+	background: #aed8d8 url(images/mailto.png) no-repeat 0 72px;
+	color: #444;
+}
+
+#page div.rates p {
+	color: #259bb5;
+}
+
+div.vcard {
+	margin: 20px;
+}
+
+div#map{
+	margin-top: 50px;
+}
+
+#map small a{
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+	font-variant: small-caps;
+	text-shadow: #000 0 0 2px;
+}
+h2.contact {
+	margin: 0;
+	padding-bottom: 20px;
+	font-size: 24pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #259bb5;
+}
+div.contact > div#name {
+	font-style: italic;
+}
+div#email > a {
+	text-decoration: none;
+	color: inherit;
+}
+
+form {
+	color: #0c4;
+	margin-top: 70px;
+}
+/* @end */
+
+/* @group services (accordions) */
+div#vertical_container {
+	padding: 30px;
+	background-color: #aed8d8;
+}
+.accordion_toggle {
+	color: #259bb5;
+	margin: 0;
+	cursor: pointer;
+	text-indent: 40px;
+	padding: 10px;
+	background: url(images/accordion-closed.png) no-repeat left;
+	font-size: 24pt;
+}
+		
+.accordion_toggle_active {
+	background: url(images/accordion-open.png) no-repeat left;
+}
+		
+.accordion_content {
+	background-color: #ffffff;
+	color: #444444;
+	overflow: hidden;
+	padding: 10px;
+	border-top-style: solid;
+	border-top-color: #bbb;
+	border-left-style: solid;
+	border-left-color: #bbb;
+}
+			
+/* @end */
+
+/* @group testimonials*/
+
+div.testimonials {
+	background-color: #aed8d8;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	color: #259bb5;
+}
+
+h2#testimonials {
+	color: #444;
+	margin: 0;
+}
+
+
+div.attribution {
+	text-align: right;
+	margin-top: 10px;
+}
+
+img#close-quotes {
+	float: right;
+	position: relative;
+	top: 15px;
+	left: 5px;
+}
+
+div.testimonial {
+	border-left-style: solid;
+	border-left-color: #bbb;
+	color: #444444;
+	overflow: hidden;
+	margin: 0 40px 8px 0;
+	padding: 20px 10px 20px 30px;
+	background: #fff url(images/open-quotes.png) no-repeat 5px 3px;
+	border-top-style: solid;
+	border-top-color: #bbb;
+}
+
+div.attribution {
+}
+/* @end */

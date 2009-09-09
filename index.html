@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>iHelp</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="./styles/global.css" type="text/css" media="screen" charset="utf-8" />
+
+		<script src="./js/protoaculous1.6.packed.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/global.js" type="text/javascript" charset="utf-8"></script>
+<!--				<link rel="stylesheet" href="/js/highslide/highslide.css" type="text/css" media="screen" charset="utf-8" />-->
+	</head>
+
+	<body class="">
+	
+	<div id="nav">
+		<ul>
+			<li id="nav-brand">
+				<a href="#">iHelp</a>
+			</li>
+			<li id="nav-services">
+				<a href="services.html">services</a>
+			</li>
+			<li id="nav-rates">
+				<a href="rates.html">rates</a>
+			</li>
+			<li id="nav-contact">
+				<a href="contact.html">contact</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="page">
+		<div class="welcome" id="home">
+			<h1>Hi there!</h1>
+			<h2>My name is Chris, and I fix Macs.</h2>
+			<h3>I help you get the most out of your Apple computer, iPhone, and wireless network.</h3>
+		</div>
+		
+		<div class="testimonials" >
+			<h2 id="testimonials">Testimonials</h2>
+			<div class="testimonial">
+				Before doing tutorials with Chris, I was afraid of computers. Now I'm using my Mac to create custom greeting cards and to video chat with my granddaughter 2500 miles away!
+				<img src="./styles/images/close-quotes.png" alt="close quotation mark" border="0" id="close-quotes" />
+				<div class="attribution">&mdash;Laurie C.</div>
+			</div>
+			<div class="testimonial">
+				My husband and I met with Chris in Hawaii. Within minutes, he had given us a wonderful tour of our new MacBook with a calmness and clarity perfectly matched to our level of interest. He then gave my husband some instructions that freed up 25% of our hard drive!<br /><br />Now we're back home in Australia and Chris is still helping us thanks to screen sharing in iChat. It feels great to know that we can get help from someone we trust without leaving home.
+				<img src="./styles/images/close-quotes.png" alt="close quotation mark" border="0" id="close-quotes" />
+				<div class="attribution">&mdash;Leone C.</div>
+			</div>
+			<div class="testimonial">
+				Chris has been helping me troubleshoot Mac hardware and software issues for years. From patiently walking me through the installation of an internal hard drive to teaching me how to use the personal finance program, Quicken, he's got expertise and communications skills that anyone could benefit from.
+				<img src="./styles/images/close-quotes.png" alt="close quotation mark" border="0" id="close-quotes" />
+				<div class="attribution">&mdash;Trevor T.</div>
+			</div>
+			<div class="testimonial">
+				I do the finances for BayNVC. Chris listened to my gripes about our main budget spreadsheet and made me a new template that is not only more visually appealing, but also updated and locked the formulas so that there's far less chance for human error.<br /><br />
+				His attention to detail really helped, plus Chris is a good listener and can explain things well. He does not mind explaining more than once if necessary.
+				<img src="./styles/images/close-quotes.png" alt="close quotation mark" border="0" id="close-quotes" />
+				<div class="attribution">&mdash;Carol B.</div>
+			</div>
+<!-- 
+			<div class="testimonial">
+				I was ready to make the switch from Windows XP, but wasn't sure which Mac would be right for me. Chris listened carefully to my needs, then made some low-pressure recommendations that were borne out by a visit to the Apple Store. His advice saved me quite a bit of time, and since it was my first consultation, it was free!
+				<img src="./styles/images/close-quotes.png" alt="close quotation mark" border="0" id="close-quotes" />
+				<div class="attribution">&mdash;Fred P.</div>
+			</div>
+ -->
+		</div>
+
+<!-- UNCOMMENT TO REVIVE LAST-TWITTER POST FUNCTIONALITY  -->
+<!-- 
+		<div class="news">
+			<div id="last-tweet">
+				<div id="twitter-timestamp">&nbsp;</div>
+				<div id="label">The doctor is:</div>
+				<a id="twitter-post" href="http://twitter.com/clozach">In. Follow me on Twitter.</a>
+				<a href="http://twitter.com/clozach" id="tweety-bird"><img src="./styles/images/bird.png" alt="Follow me on Twitter" border="0" /></a>
+			</div>
+		</div>
+ -->
+	</div>
+
+	<script type="text/javascript" >  
+	//
+	// You can hide the accordions on page load like this, it maintains accessibility
+	//
+	// Special thanks go out to Will Shaver @ http://primedigit.com/
+	//
+		var verticalAccordions = $$('.accordion_toggle');
+		verticalAccordions.each(function(accordion) {
+			$(accordion.next(0)).setStyle({
+			  height: '0px'
+			});
+		});
+	</script>
+
+<!-- UNCOMMENT TO REVIVE LAST-TWITTER POST FUNCTIONALITY  -->
+<!-- 
+<script src="./js/twitter.js?1"></script>
+<script src="http://twitter.com/statuses/user_timeline/clozach.json?callback=twitterCallback&amp;count=1"></script>
+ -->
+
+	</body>
+</html>
