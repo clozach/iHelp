@@ -5,7 +5,6 @@
 // 
 // Accordion is freely distributable under the terms of an MIT-style license.
 //
-// I don't care what you think about the file size...
 //   Be a pro: 
 //	    http://www.thinkvitamin.com/features/webapps/serving-javascript-fast
 //      http://rakaz.nl/item/make_your_pages_load_faster_by_combining_and_compressing_javascript_and_css_files
